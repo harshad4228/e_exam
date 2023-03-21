@@ -1,0 +1,43 @@
+<!-- <form method="POST">
+    {% csrf_token %}
+    {{form.as_p}}
+    <input type="submit" value="Submit">
+</form>  -->
+
+<!-- templates/user/student_register.html -->
+
+
+
+
+{% load static %}
+
+{% block content %}
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="text-center mb-4">Register Student</h1>
+                        <form method="POST">
+                            {% csrf_token %}
+                            
+                            <div class="form-group">
+
+                              {% csrf_token %}
+                              {{ form.as_p }}
+                            
+                             
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-block mt-4", value="Submit">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block head %}
+    <link rel="stylesheet" href="{% static '/assets/css/student_register.css' %}">
+{% endblock %}

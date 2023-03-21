@@ -1,0 +1,116 @@
+/* static/css/student_register.css */
+
+/* .card-header {
+    background-color: #7DCEA0;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px;
+  }
+  
+  .card-body {
+    padding: 30px;
+    
+  }
+  
+  .btn-primary {
+    background-color: #3498DB;
+    border-color: #3498DB;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2E86C1;
+    border-color: #2E86C1;
+  }
+  
+  .form-control {
+    border-radius: 0;
+    border-color: #ccc;
+  }
+  
+  .form-control:focus {
+    border-color: #3498DB;
+    box-shadow: none;
+  }
+  
+  .form-check-input {
+    margin-top: 10px;
+    margin-right: 5px;
+  }
+  
+  .help-text {
+    font-size: 14px;
+    color: #777;
+  }
+   */
+
+   .card {
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 40px;
+    background-color: #7b7f7d;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+form {
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 100px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+    font-size: 16px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAQCAMAAADPviLOAAAAA1BMVEX///+nxBvIAAAAAXRSTlMAQObYZgAAAApJREFUCB1jOAAAAAIAAcuivcAAAAAASUVORK5CYII=);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0069d9;
+}
