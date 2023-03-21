@@ -6,6 +6,7 @@ from .models import User
 from django.utils.translation import gettext_lazy as _
 
 # class StudentRegisterForm(UserCreationForm):
+#hello
 #     class Meta(UserCreationForm.Meta):
 #         model = User
 #         fields = ('username', 'email', 'password1', 'password2', 'gender', 'contact_number')
